@@ -12,18 +12,11 @@
             .row{
                 display: flex;
                 flex-wrap: wrap;
+                background-color: rgb(5, 194, 227); 
             }
             
-            .col-3{
+            .col-lg-3, col-sm-6{
                 background-color: lightcyan;
-                flex: 1 0 25%;
-                box-sizing: border-box;
-                padding: 10px;
-                border: 1px solid black;
-            }
-
-            .col-6{
-                background-color: lightcoral;
                 flex: 1 0 25%;
                 box-sizing: border-box;
                 padding: 10px;
@@ -36,14 +29,17 @@
     <body>
         <div class = "container">
             <div class="row">
-                <div class="col-3">
+                <div class="col-lg-3 col-sm-6">
                     this is a section
                 </div>
-                <div class="col-3">
+                <div class="col-lg-3 col-sm-6">
                     this is another section
                 </div>
-                <div class="col-6">
+                <div class="col-lg-3 col-sm-6">
                     this is 3rd section
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    this is 4th section
                 </div>
             </div>
         </div>
