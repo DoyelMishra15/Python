@@ -12,6 +12,6 @@ def wroot():
 
 @app.route('/bob')
 def bob():
-    return "This is my first Flask app"
+    return "This is bob Flask app"
 
 app.run()
