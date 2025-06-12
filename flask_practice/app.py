@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, request
 
 app = Flask(__name__)
 
@@ -13,5 +13,12 @@ def wroot():
 @app.route('/bob')
 def bob():
     return "This is bob Flask app"
+
+@app.route('/method',methods=['GET','POST'])
+def method():
+    if request.method=='POST':
+        return "Post request"
+    else:
+        return "maybe using a Get request"
 
 app.run()
