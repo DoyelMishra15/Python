@@ -8,11 +8,11 @@ def welcome():
 
 @app.route('/')
 def wroot():
-    return "This is my root Flask app"
+    return render_template("index.html")
 
 @app.route('/bob')
 def bob():
-    return render_template("index.html")
+    return "This is bob Flask app"
 
 @app.route('/method',methods=['GET','POST'])
 def method():
