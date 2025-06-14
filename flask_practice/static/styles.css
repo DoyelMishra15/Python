@@ -6,4 +6,7 @@ p{
 }
 .main{
     padding: 10px;
+    text-align: center;
+    border: black solid 3px;
+    background-color: bisque;
 }
