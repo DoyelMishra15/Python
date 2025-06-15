@@ -4,7 +4,7 @@ p{
     background-color: azure;
     text-align: center;
 }
-.main{
+body{
     padding: 10px;
     text-align: center;
     border: black solid 3px;
