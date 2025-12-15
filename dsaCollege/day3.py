@@ -83,18 +83,17 @@ print(f"Sum of Series upto {x} terms : {sum}")
 
 
 #Sum of Series [9 + 99 + 999 + …]
-'''x=int(input("Num of terms: "))
 y=int(input("Num : "))
 sum=0
-for i in range(x):
+for i in range(5):
     sum+=y
-    y*=10
-print(sum)'''
+    y=y*10 + y
+print(sum)
 
 
 #Sum of Series [1 - X²/2! + X⁴/4! - …]
 
-x=2
+'''x=2
 n=5
 sum=0
 for i in range(0,n):
@@ -103,4 +102,4 @@ for i in range(0,n):
     else:
         sum+=x ** (2 * i)
         
-print(f"The sum is: {sum}")
+print(f"The sum is: {sum}")'''
