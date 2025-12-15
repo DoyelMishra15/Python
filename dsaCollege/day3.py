@@ -3,7 +3,7 @@
 
 #y is excluded, i.e will consider till y-1 value
 
-for i in range(1,10):
+'''for i in range(1,10):
     print(i)
 
 for i in range(1,10,1):
@@ -40,12 +40,12 @@ for i in range(1,11):
     #if i==7:
         #break
 else:
-    print("xhfhr")
+    print("xhfhr")'''
 
 # else block is executed if loop is run without breaking
 
 #Sum of First 10 Natural Numbers
-sum=0#flag variable, where we make an assumption
+'''sum=0#flag variable, where we make an assumption
 for i in range(1,11):
     sum+=i
 print(sum)
@@ -63,23 +63,28 @@ for i in range(1,x+1):
 x=int(input())
 print()
 for i in range(1,11):
-    print(f"{x} X {i} = {x*i}")
+    print(f"{x} X {i} = {x*i}")'''
 
 # Factorial Calculation
-x=int(input())
+'''x=int(input())
 print()
 fact=1
 for i in range(1,x+1):
     fact*=i
-print(f"The Factorial of {x} is: {fact}")
+print(f"The Factorial of {x} is: {fact}")'''
 
 #  Harmonic Series and Their Sum
 
 
 #Sum of Series [9 + 99 + 999 + …]
+x=int(input("Num of terms: "))
+y=int(input("Num : "))
+sum=0
+for i in range(x):
+    sum+=y
+    y*=10
+print(sum)
 
 
 #Sum of Series [1 - X²/2! + X⁴/4! - …]
-
-
 
