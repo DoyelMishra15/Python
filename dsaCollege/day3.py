@@ -94,13 +94,13 @@ print(sum)'''
 
 #Sum of Series [1 - X²/2! + X⁴/4! - …]
 
-x=1
+x=2
 n=5
 sum=0
-j=0
-for i in range(0,n,2):
+for i in range(0,n):
     if i%2==0:
-        
+        sum-=x ** (2 * i)
     else:
+        sum+=x ** (2 * i)
         
 print(f"The sum is: {sum}")
