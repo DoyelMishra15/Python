@@ -74,17 +74,33 @@ for i in range(1,x+1):
 print(f"The Factorial of {x} is: {fact}")'''
 
 #  Harmonic Series and Their Sum
+'''x=int(input("enter number of term: "))
+sum=0
+for i in range(1,x+1):
+    sum+=1/i
+print(f"Sum of Series upto {x} terms : {sum}")
+'''
 
 
 #Sum of Series [9 + 99 + 999 + …]
-x=int(input("Num of terms: "))
+'''x=int(input("Num of terms: "))
 y=int(input("Num : "))
 sum=0
 for i in range(x):
     sum+=y
     y*=10
-print(sum)
+print(sum)'''
 
 
 #Sum of Series [1 - X²/2! + X⁴/4! - …]
 
+x=1
+n=5
+sum=0
+j=0
+for i in range(0,n,2):
+    if i%2==0:
+        
+    else:
+        
+print(f"The sum is: {sum}")
