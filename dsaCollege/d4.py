@@ -56,3 +56,7 @@ for i in range(5):
     for k in range(5-i):
         print("*",end="")
     print()
+
+
+print()
+
