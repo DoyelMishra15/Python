@@ -144,3 +144,9 @@ for r in range(4):
     for s in range(2*r + 1):
         print("*",end="")
     print()
+for r in range(2,-1,-1):
+    for sp in range(2-r+1):
+        print(" ",end="")
+    for s in range(2*r + 1):
+        print("*",end="")
+    print()
