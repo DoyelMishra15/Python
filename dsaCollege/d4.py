@@ -60,3 +60,29 @@ for i in range(5):
 
 print()
 
+n=1234
+temp=n
+rev=0
+count=0
+while temp>0:
+    temp1= temp%10
+    rev = rev*10 + temp1
+    temp=temp//10
+print(f"Reverse of the number: {rev}")
+#if rev==n:
+    #print("Number is palindrome")
+    
+print(f"Palindrome: {rev==n}")
+
+n=53
+
+count=0
+flag=True
+for i in range(2,54):
+    if n%i==0:
+        count+=1
+    if count>1:
+        flag = False
+        break
+print(f"num is prime: {flag}")
+
