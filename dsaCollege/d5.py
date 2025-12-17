@@ -104,3 +104,16 @@ for x in l:
         res.append(x+str(i))
 print(res)
 
+#38
+
+x=[1,3,2,4,6,7]
+for i in range(0,len(x),2):
+    x[i],x[i+1]=x[i+1],x[i]
+print(x)
+
+#51
+n=2
+res=[x[i::n] for i in range(n)]
+print(res)
+
+#55
