@@ -80,3 +80,20 @@ for i in a[:]:
     if i%2==0:
         a.remove(i)
 print(a)
+
+#17,
+a=[2,3,5,6,4]
+flag=True
+for x in a:
+    for i in range(2,int(x** 0.5)+1):
+        if x%i!=0:
+            flag=False
+            break
+print(flag)
+
+#22,
+
+print(a.index(5))
+
+#35
+
