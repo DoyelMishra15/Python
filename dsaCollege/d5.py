@@ -68,4 +68,15 @@ for e in a:
 print(res)
 
 #12
+a=['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
+a.pop(5)
+a.pop(4)
+a.pop(0)
+print(a)
+
+a=[1,2,3,4,5,6]
+for i in a[:]:
+    if i%2==0:
+        a.remove(i)
+print(a)
 #14
