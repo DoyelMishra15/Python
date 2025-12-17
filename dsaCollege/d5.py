@@ -3,7 +3,6 @@
 #list method and functions(min,max,sum,count)
 #list slicing 
 #list comprehension
-#
 
 # 1,2,3,4,5,7,12,14,17,22,30,35,38,51,55,66,69,72,73,74,75
 
@@ -100,8 +99,8 @@ print(a.index(5))
 l=['p','q']
 n=int(input("enter a num: "))
 res=[]
-for i in range(1,n+1):
-    for x in l:
+for x in l:
+    for i in range(1,n+1):
         res.append(x+str(i))
 print(res)
 
