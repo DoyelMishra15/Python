@@ -97,3 +97,11 @@ print(a.index(5))
 
 #35
 
+l=['p','q']
+n=int(input("enter a num: "))
+res=[]
+for i in range(1,n+1):
+    for x in l:
+        res.append(x+str(i))
+print(res)
+
