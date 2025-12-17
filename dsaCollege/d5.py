@@ -46,13 +46,26 @@ for x in b:
 print(count)
 
 #7
-a=1,2,3,4,4,3,3,2,1,2,4,6,7]
+a=[1,2,3,4,4,3,3,2,1,2,4,6,7]
+print(list(set(a)))
 
+#30
+freq={}
+for item in a:
+    if item in freq:
+        freq[item] += 1
+    else:
+        freq[item] = 1
+
+print(freq)
+
+#another way
+res=[]
+for e in a:
+    if e not in res:
+        print(f"count of {e}= {a.count(e)}")
+        res.append(e)
+print(res)
 
 #12
-
-
-
-
-
 #14
