@@ -1,0 +1,58 @@
+#list declaration and accesing elements
+#list properties
+#list method and functions(min,max,sum,count)
+#list slicing 
+#list comprehension
+#
+
+# 1,2,3,4,5,7,12,14,17,22,30,35,38,51,55,66,69,72,73,74,75
+
+#1
+a=[1,2,3,4,5]
+sum=0
+for x in a:
+    sum+=x
+print(sum)
+
+#2
+m=1
+for x in a:
+    m*=x
+print(m)
+
+#3
+m=a[1]
+for x in a:
+    if m>x:
+        m=x
+print(m)
+print(min(a))
+
+#4
+print(max(a))
+m=a[1]
+for x in a:
+    if m<x:
+        m=x
+print(m)
+
+
+#5
+b=['abc', 'xyz', 'aba', '1221']
+count=0
+for x in b:
+    if len(x)>2 and x==x[::-1]:
+        count+=1
+print(count)
+
+#7
+a=1,2,3,4,4,3,3,2,1,2,4,6,7]
+
+
+#12
+
+
+
+
+
+#14
