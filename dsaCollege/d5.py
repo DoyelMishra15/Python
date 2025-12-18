@@ -117,4 +117,3 @@ res=[x[i::n] for i in range(n)]
 print(res)
 
 #55
-
