@@ -56,3 +56,50 @@ greet(age=21, name="Doyel")
             return haystack.index(needle)
         else:
             return -1'''
+
+
+
+#344
+'''class Solution:
+    def reverseString(self, s: List[str]) -> None:
+        """
+        Do not return anything, modify s in-place instead.
+        """
+        i = 0
+        j = len(s) - 1
+        while i < j:
+            s[i],s[j]=s[j],s[i]
+            i+=1
+            j-=1'''
+
+# s[i]="ho" 
+#s[j]=s[i].replace(s[j]) "h"
+#s[i]=s[i].replace(s[j])"o"
+
+# nd 125
+
+'''
+class Solution:
+    def isPalindrome(self, s: str) -> bool:
+        s=s.lower()
+        for c in s:
+            if not c.isalnum():
+                s=s.replace(c,'')
+        return s==s[::-1]
+'''
+
+'''
+class Solution:
+    def isPalindrome(self, s: str) -> bool:
+        s=s.lower()
+        for c in s:
+            if not c.isalnum():
+                s=s.replace(c,'')
+        i,j=0,len(s)-1
+        while i<j:
+            if s[i]!=s[j]:
+                return False
+            i+=1
+            j-=1
+        return True
+'''
