@@ -103,3 +103,16 @@ class Solution:
             j-=1
         return True
 '''
+
+a=[1,2,3,4,5,6,7]
+for i in range(0,len(a)-1):
+    for j in range(i+1,len(a)):
+        print(a[i],a[j])
+
+a=[1,2,3,4,5,6,7]
+t=9
+for i in range(0,len(a)-1):
+    for j in range(i+1,len(a)):
+        if a[i]+a[j]==t:
+            print([i,j])
+
