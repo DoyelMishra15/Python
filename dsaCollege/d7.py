@@ -29,3 +29,20 @@
                 j-=1
         return "".join(s)'''
 
+#11
+'''class Solution:
+    def maxArea(self, height: List[int]) -> int:
+        max_water=0
+        i,j=0,len(height)-1
+        while i<j:
+            w=j-i
+            if height[j]>height[i]:
+                h=height[i]
+                i+=1
+            else:
+                h=height[j]
+                j-=1
+            water= w * h
+            if max_water < water:
+                max_water = water
+        return max_water'''
