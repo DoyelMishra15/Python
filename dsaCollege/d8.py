@@ -32,3 +32,31 @@
         for i in range(n):
             nums1[m+i]=nums2[i]
         nums1.sort()'''
+
+#643
+'''class Solution:
+    def findMaxAverage(self, nums: List[int], k: int) -> float:
+        s = sum(nums[:k])
+        avg= s/k
+
+        for i in range(k,len(nums)):
+            s = s - nums[i-k] + nums[i]
+            avg = max(avg, s/k)
+        return avg'''
+'''class Solution:
+    def findMaxAverage(self, nums: List[int], k: int) -> float:
+        s = sum(nums[:k])
+        avg= s/k
+        for i in range(1, len(nums) - k + 1):
+            s = s - nums[i-1] + nums[i+k-1]
+            avg = max(avg, s/k)
+        return avg'''
+
+
+#1423
+
+
+
+
+
+#1343
