@@ -66,7 +66,7 @@
                 lsum = lsum - cardPoints[i]
                 rsum= rsum + cardPoints[len(cardPoints) - k + i]
                 s = max(s,lsum+rsum)
-            return s''''''
+            return s'''
 
 
 
