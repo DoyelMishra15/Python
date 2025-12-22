@@ -44,5 +44,15 @@ print(x)
                 return True
         return False'''
 
+'''class Solution:
+    def containsDuplicate(self, nums: List[int]) -> bool:
+        d ={}
+        for i in nums:
+            if i in d:
+                return True
+            else:
+                d[i]="heh"
+        return False'''
+
 #used in duplicates, 
 # set operations like union, intersection, difference,only then use set
