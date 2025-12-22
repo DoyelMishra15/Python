@@ -14,5 +14,16 @@ print(x)
 #accessing dict elements
 #dict methods
 
+#1 leetcode
+'''class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        vi ={}
+        for i in range(0,len(nums)):
+            num = nums[i]
+            need = target - num
+            if need in vi:
+                return(vi[need],i)
+            vi[num]=i'''
+
 #used in duplicates, 
 # set operations like union, intersection, difference,only then use set
