@@ -54,5 +54,30 @@ print(x)
                 d[i]="heh"
         return False'''
 
+'''class Solution:
+    def containsDuplicate(self, nums: List[int]) -> bool:
+        if len(nums)==len(set(nums)):
+            return False
+        return True'''
+
+# 242
+'''class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
+        if len(s)==len(t):
+            d1,d2={},{}
+            for i in s:
+                if i in d1:
+                    d1[i]+=1
+                else:
+                    d1[i]=1
+            for i in t:
+                if i in d2:
+                    d2[i]+=1
+                else:
+                    d2[i]=1
+            return d1==d2
+        return False
+        '''
 #used in duplicates, 
 # set operations like union, intersection, difference,only then use set
+#383, 387
