@@ -78,6 +78,19 @@ print(x)
             return d1==d2
         return False
         '''
+
+'''d1,d2={},{}
+            for i in s:
+                if i in d1:
+                    d1[i]+=1
+                else:
+                    d1[i]=1
+            for i in t:
+                if i in d2:
+                    d2[i]+=1
+                else:
+                    d2[i]=1
+            return d1==d2'''
 #used in duplicates, 
 # set operations like union, intersection, difference,only then use set
 #383, 387
