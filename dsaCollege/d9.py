@@ -13,3 +13,6 @@ print(x)
 #properties and declarations
 #accessing dict elements
 #dict methods
+
+#used in duplicates, 
+# set operations like union, intersection, difference,only then use set
