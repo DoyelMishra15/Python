@@ -1,5 +1,6 @@
 class Node:
     #def __init__(self,data,next): if passing next node
+    
     def __init__(self,data):
         self.data = data
         #self.next = next
@@ -7,10 +8,11 @@ class Node:
         self.next = None
     
     def display(self):
-        t = n1
+        t = n1 #n3
         while t:
-            print(t.data)
+            print(t.data, end="->")
             t = t.next
+        print()
 
 n1 = Node(10)
 #n1=Node(10,None)
@@ -19,9 +21,12 @@ n3 = Node(30)
 n4 = Node(40)
 n5 = Node(50)
 
-print(n1.next)
+#print(n1.next)
+
 n1.next=n2
-print(n1.next)
+
+#print(n1.next)
+
 n2.next=n3
 n3.next=n4
 n4.next=n5
