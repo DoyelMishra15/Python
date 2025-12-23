@@ -119,12 +119,11 @@ class Node:
         while t:
            rev.append(t.data)
            t = t.next
-        for i in rev[::-1]:
-            if i!=rev[-1]:
+        for i in range(len(rev)-1, -1, -1):
+            if i != 0:
                 print(rev[i], end="->")
             else:
                 print(rev[i])
-        print()
         
 n1 = Node(10)
 n2 = Node(20)
