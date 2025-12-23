@@ -88,7 +88,20 @@ class Node:
 
     def search(self,e):
         t=n1
-        
+        while t:
+            if t.data==e:
+                print(f"Element {e} found")
+            return
+        t=t.next
+
+    def occurences(self,e):
+        t=n1
+        c=0
+        while t:
+            if t.data==e:
+                c+=1
+            t=t.next
+        print(f"Element {e} occurs {c} times")
         
 n1 = Node(10)
 n2 = Node(20)
@@ -114,9 +127,18 @@ n1.maximum()
 n1.minimum()
 
 # 5. **Search an Element in Linked List**
+n1.search(30)
 
 # 6. **Count Occurrences of a Given Element**
+n1.occurences(20)
+
 # 7. **Find Average of Linked List Elements**
+
+
 # 8. **Print Linked List in Reverse Order**
+
+
 # 9. **Find Middle Element of Linked List**
+
+
 # 10. **Check if Linked List is Empty**
