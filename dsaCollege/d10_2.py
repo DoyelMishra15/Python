@@ -76,6 +76,19 @@ class Node:
                 m=t.data
             t=t.next
         print(f"Maximum: {m}")
+
+    def minimum(self):
+        t=n1
+        m=t.data
+        while t:
+            if m>t.data:
+                m=t.data
+            t=t.next
+        print(f"Minimum: {m}")
+
+    def search(self,e):
+        t=n1
+        
         
 n1 = Node(10)
 n2 = Node(20)
@@ -90,12 +103,18 @@ n4.next=n5
 
 # 1. **Find Length of a Linked List**
 n1.length()
+
 # 2. **Find Sum of All Elements**
 n1.sum()
+
 # 3. **Find Maximum Element**
 n1.maximum()
+
 # 4. **Find Minimum Element**
+n1.minimum()
+
 # 5. **Search an Element in Linked List**
+
 # 6. **Count Occurrences of a Given Element**
 # 7. **Find Average of Linked List Elements**
 # 8. **Print Linked List in Reverse Order**
