@@ -12,6 +12,10 @@ class Form:
     
     def greet(self):
         print(f"Hello {self.name}, your age is {self.age}")
+
+    def ucandoit(self):
+        if self.age>=18:
+            print(f"You can do it {self.name}!!")
         
 
 o1 = Form("Aria","1234567890",20)
@@ -25,3 +29,4 @@ print(o2.age)
 # print(o2.age)
 
 o1.greet()
+o2.ucandoit()
