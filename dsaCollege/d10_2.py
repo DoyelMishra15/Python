@@ -124,6 +124,23 @@ class Node:
                 print(rev[i], end="->")
             else:
                 print(rev[i])
+
+    def mid(self):
+        t = n1
+        t=n1
+        c=0
+        while t:
+            c+=1
+            t=t.next
+        t = n1
+        if c%2==0:
+            for _ in range(c // 2 - 1):
+                t = t.next
+                print("Middle elements:", t.data, t.next.data)
+        else:
+            for _ in range(c // 2):
+                t = t.next
+            print("Middle element:", t.data)
         
 n1 = Node(10)
 n2 = Node(20)
@@ -161,6 +178,6 @@ n1.avg()
 n1.reverse()
 
 # 9. **Find Middle Element of Linked List**
-
+n1.mid()
 
 # 10. **Check if Linked List is Empty**
