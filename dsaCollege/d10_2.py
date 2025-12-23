@@ -102,6 +102,29 @@ class Node:
                 c+=1
             t=t.next
         print(f"Element {e} occurs {c} times")
+    
+    def avg(self):
+        t=n1
+        s=0
+        k=0
+        while t:
+            s+=t.data
+            k+=1
+            t=t.next
+        print(f"Average: {s/k}")
+
+    def reverse(self):
+        t = n1 #n3
+        rev =[]
+        while t:
+           rev.append(t.data)
+           t = t.next
+        for i in rev[::-1]:
+            if i!=rev[-1]:
+                print(rev[i], end="->")
+            else:
+                print(rev[i])
+        print()
         
 n1 = Node(10)
 n2 = Node(20)
@@ -133,10 +156,10 @@ n1.search(30)
 n1.occurences(20)
 
 # 7. **Find Average of Linked List Elements**
-
+n1.avg()
 
 # 8. **Print Linked List in Reverse Order**
-
+n1.reverse()
 
 # 9. **Find Middle Element of Linked List**
 
