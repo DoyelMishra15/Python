@@ -31,3 +31,6 @@ print(o2.age)
 o1.greet()
 o2.ucandoit()
 print(o1) #gives objects address
+
+#what is adress of o2?? o2 is the address of itself
+
