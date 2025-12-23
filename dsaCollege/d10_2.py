@@ -52,7 +52,21 @@ class Node:
             c+=1
             t=t.next
         print("Length:",c)
+
+    def display(self):
+        t = n1 #n3
+        while t:
+           print(t.data, end="->")
+           t = t.next
+        print()
         
+    def sum(self):
+        t=n1
+        s=0
+        while t:
+            s+=t.data
+            t=t.next
+        print(f"Sum: {s}")
         
 n1 = Node(10)
 n2 = Node(20)
@@ -68,6 +82,7 @@ n4.next=n5
 # 1. **Find Length of a Linked List**
 n1.length()
 # 2. **Find Sum of All Elements**
+n1.sum()
 # 3. **Find Maximum Element**
 # 4. **Find Minimum Element**
 # 5. **Search an Element in Linked List**
