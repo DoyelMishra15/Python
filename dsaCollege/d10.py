@@ -11,7 +11,7 @@ class Form:
         self.age=a
     
     def greet(self):
-        print("Hello",self.name)
+        print(f"Hello {self.name}, your age is {self.age}")
         
 
 o1 = Form("Aria","1234567890",20)
