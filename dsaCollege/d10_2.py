@@ -13,3 +13,7 @@ n3 = Node(30)
 
 n1.next=n2
 n2.next=n3
+
+print(n1.data)
+print(n1.next.data)
+print(n1.next.next.data)
