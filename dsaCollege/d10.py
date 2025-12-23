@@ -9,6 +9,9 @@ class Form:
         self.name=name
         self.phone=p
         self.age=a
+    
+    def greet(self):
+        print("Hello ",self.name)
         
 
 o1 = Form("Aria","1234567890",20)
@@ -20,3 +23,4 @@ o1.age=29
 print(o1.age)
 o2.age=1517
 print(o2.age)
+o1.greet()
