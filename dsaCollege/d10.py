@@ -30,3 +30,4 @@ print(o2.age)
 
 o1.greet()
 o2.ucandoit()
+print(o1) #gives objects address
