@@ -34,3 +34,45 @@ print(o1) #gives objects address
 
 #what is adress of o2?? o2 is the address of itself
 
+#                 DATA STRUCTURES (DS)
+#                         |
+#         -----------------------------------------
+#         |                                       |
+#   LINEAR DATA STRUCTURES (LDS)       NON-LINEAR DATA STRUCTURES (NLDS)
+#         |                                       |
+#   -----------------------                 -------------------
+#   |          |          |                 |                 |
+# ARRAYS     STACK      QUEUE             TREES             GRAPHS
+#                          |
+#                     LINKED LIST
+#                          |
+#         -------------------------------------------------
+#         |                 |               |             |
+#        SLL               DLL             SCLL          DCLL
+#  (Singly LL)       (Doubly LL)    (Singly Circular) (Doubly Circular)
+
+
+# DATA STRUCTURES (DS)
+#         |
+# -----------------------------
+# |                           |
+# LINEAR DATA STRUCTURES     NON-LINEAR DATA STRUCTURES
+# (LDS)                      (NLDS)
+# |                           |
+# |                       TREES (Trees)
+# |
+# LINKED LIST
+# |
+# -------------------------------------------------
+# |                 |               |             |
+# SLL               DLL             SCLL          DCLL
+# (Singly           (Doubly          (Singly       (Doubly
+# Linked List)      Linked List)     Circular      Circular
+#                                    Linked List) Linked List)
+# |
+# |
+# NLDS
+# |
+# -------------------
+# |                 |
+# TREES (Trees)   GRAPHS (Graphs)
