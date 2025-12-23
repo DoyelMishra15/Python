@@ -67,6 +67,15 @@ class Node:
             s+=t.data
             t=t.next
         print(f"Sum: {s}")
+    
+    def maximum(self):
+        t=n1
+        m=t.data
+        while t:
+            if m<t.data:
+                m=t.data
+            t=t.next
+        print(f"Maximum: {m}")
         
 n1 = Node(10)
 n2 = Node(20)
@@ -84,6 +93,7 @@ n1.length()
 # 2. **Find Sum of All Elements**
 n1.sum()
 # 3. **Find Maximum Element**
+n1.maximum()
 # 4. **Find Minimum Element**
 # 5. **Search an Element in Linked List**
 # 6. **Count Occurrences of a Given Element**
