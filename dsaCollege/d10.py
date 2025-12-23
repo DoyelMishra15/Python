@@ -5,3 +5,4 @@ class Form:
 
 
 o1 = Form()
+print(o1.x)
