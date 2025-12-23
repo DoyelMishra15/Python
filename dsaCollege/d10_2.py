@@ -1,5 +1,6 @@
 class Node:
-    def __init__(self,data,next):
+    #def __init__(self,data,next): if passing next node
+    def __init__(self,data):
         self.data = data
         #self.next = next
         #next ki jagah None
@@ -7,3 +8,6 @@ class Node:
 
 n1 = Node(10)
 #n1=Node(10,None)
+n2 = Node(20)
+n3= Node(30)
+
