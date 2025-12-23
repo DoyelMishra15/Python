@@ -3,3 +3,4 @@ class Node:
         self.data = data
         self.next = next
 
+n1=Node(10,None)
