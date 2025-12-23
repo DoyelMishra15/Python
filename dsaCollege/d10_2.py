@@ -51,6 +51,7 @@ class Node:
         while t:
             c+=1
             t=t.next
+        print("Length:",c)
         
         
 n1 = Node(10)
@@ -65,7 +66,7 @@ n3.next=n4
 n4.next=n5
 
 # 1. **Find Length of a Linked List**
-
+n1.length()
 # 2. **Find Sum of All Elements**
 # 3. **Find Maximum Element**
 # 4. **Find Minimum Element**
