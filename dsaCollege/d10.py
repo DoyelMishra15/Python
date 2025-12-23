@@ -11,7 +11,7 @@ class Form:
         self.age=a
     
     def greet(self):
-        print("Hello ",self.name)
+        print("Hello",self.name)
         
 
 o1 = Form("Aria","1234567890",20)
@@ -19,8 +19,9 @@ o2 = Form("Bob","0987654321")
 print(o1.phone)
 print(o2.age)
 
-o1.age=29
-print(o1.age)
-o2.age=1517
-print(o2.age)
+# o1.age=29
+# print(o1.age)
+# o2.age=1517
+# print(o2.age)
+
 o1.greet()
