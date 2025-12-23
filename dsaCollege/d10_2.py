@@ -141,6 +141,12 @@ class Node:
             for _ in range(c // 2):
                 t = t.next
             print("Middle element:", t.data)
+
+    def empty(self):
+        if n1==None:
+            print("Linked List is empty")
+        else:
+            print("Linked List is not empty")
         
 n1 = Node(10)
 n2 = Node(20)
@@ -181,3 +187,4 @@ n1.reverse()
 n1.mid()
 
 # 10. **Check if Linked List is Empty**
+n1.empty()
