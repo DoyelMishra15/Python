@@ -16,6 +16,9 @@ class SLL:
         # if head is None:
         #     head=nn
         #     tail=nn
+        #   else:
+        #       nn.next=head
+        #   head=nn
         pass
 
     def IAE(self):#insert at end
