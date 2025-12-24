@@ -12,10 +12,14 @@ class SLL:
         self.tail = None
 
     def IAS(self):#insert at start
+        # nn=Node(data)
+        # if head is None:
+        #     head=nn
+        #     tail=nn
         pass
 
     def IAE(self):#insert at end
         pass
-    
+
     def IAM(self):#insert at middle
         pass
