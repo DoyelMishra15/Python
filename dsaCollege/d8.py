@@ -83,4 +83,3 @@
 #             if window_sum >= target:
 #                 count += 1
 #         return count
-

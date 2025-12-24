@@ -94,4 +94,21 @@ print(x)
 #used in duplicates, 
 # set operations like union, intersection, difference,only then use set
 
-#383, 387
+#383
+# class Solution:
+#     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
+#         d={}
+#         for i in magazine:
+#             if i in d:
+#                 d[i]+=1
+#             else:
+#                 d[i]=1
+#         for ch in ransomNote:
+#             if ch not in d or d[ch] == 0:
+#                 return False
+#             d[ch] -= 1
+#         return True
+        
+
+#387
+

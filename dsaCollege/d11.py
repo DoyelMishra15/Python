@@ -31,8 +31,14 @@ class SLL:
             nn.next=self.head
             self.head=nn
 
-    def IAE(self):#insert at end
-        pass
+    def IAE(self,d):#insert at end
+        nn=Node(d)
+        if not self.head:
+            self.head=nn
+            self.tail=nn
+        else:
+            self.tail.next=nn
+            self.tail=nn
 
     def IAM(self):#insert at middle
         pass
