@@ -1,6 +1,17 @@
 #CRUD or CURD Operations.....
 #create, read, update, delete
 
+
+#inserting at start
+#  nn=Node(data)
+        # if head is None:
+        #     head=nn
+        #     tail=nn
+        #   else:
+        #       nn.next=head
+        #   head=nn
+
+
 class Node:
     def __init__(self,data):
         self.data = data
@@ -11,15 +22,14 @@ class SLL:
         self.head = None
         self.tail = None
 
-    def IAS(self):#insert at start
-        # nn=Node(data)
-        # if head is None:
-        #     head=nn
-        #     tail=nn
-        #   else:
-        #       nn.next=head
-        #   head=nn
-        pass
+    def IAS(self,d):#insert at start
+        nn=Node(d)
+        if not self.head:
+            self.head=nn
+            self.tail=nn
+        else:
+            nn.next=self.head
+            self.head=nn
 
     def IAE(self):#insert at end
         pass
