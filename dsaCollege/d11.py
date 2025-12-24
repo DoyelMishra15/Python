@@ -36,3 +36,15 @@ class SLL:
 
     def IAM(self):#insert at middle
         pass
+
+    def display(self):
+        t=self.head
+        while t:
+            print(t.data, end="->")
+            t=t.next
+        print()
+
+s1= SLL()
+s1.IAS(10)
+s1.IAS(20)
+s1.IAS(30)
