@@ -48,3 +48,6 @@ s1= SLL()
 s1.IAS(10)
 s1.IAS(20)
 s1.IAS(30)
+s1.IAS(40)
+
+s1.display()
