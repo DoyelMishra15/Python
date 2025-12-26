@@ -29,5 +29,8 @@ class SLL:
             print("SLL is empty, deletion not possible")
         else:
             t = self.head
-            while t.next!=t.tail:
-                t=se
+            while t.next != t.tail:
+                t = t.next
+            t.next = None
+            self.tail = t
+        
