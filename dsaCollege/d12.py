@@ -1,17 +1,3 @@
-#CRUD or CURD Operations.....
-#create, read, update, delete
-
-
-#inserting at start
-#  nn=Node(data)
-        # if head is None:
-        #     head=nn
-        #     tail=nn
-        #   else:
-        #       nn.next=head
-        #   head=nn
-
-
 class Node:
     def __init__(self,data):
         self.data = data
@@ -31,3 +17,17 @@ class SLL:
                 print(t.data)
             t=t.next
         print()
+
+    def DAS(self,d):#delete at start
+        if not self.head:
+            print("SLL is empty, deletion not possible")
+        else:
+            self.head=self.head.next
+
+    def DAE(self):#delete at end
+        if not self.head:
+            print("SLL is empty, deletion not possible")
+        else:
+            t = self.head
+            while t.next!=t.tail:
+                t=se
