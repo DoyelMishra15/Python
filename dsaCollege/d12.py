@@ -18,7 +18,7 @@ class SLL:
             t=t.next
         print()
 
-    def DAS(self,d):#delete at start
+    def DAS(self):#delete at start
         if not self.head:
             print("SLL is empty, deletion not possible")
         else:
