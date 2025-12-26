@@ -27,7 +27,7 @@ class SLL:
     def DAE(self):#delete at end
         if not self.head:
             print("SLL is empty, deletion not possible")
-        elif head==tail:
+        elif self.head == self.tail:
             self.head=None
             self.tail=None
         else:
