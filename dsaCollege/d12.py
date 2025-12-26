@@ -36,4 +36,3 @@ class SLL:
                 t = t.next
             t.next = None
             self.tail = t
-        
