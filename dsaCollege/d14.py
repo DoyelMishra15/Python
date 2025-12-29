@@ -69,3 +69,4 @@ class Solution:
         if p.next:
             p.next=p.next.next
         return head'''
+
