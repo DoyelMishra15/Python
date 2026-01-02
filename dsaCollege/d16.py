@@ -28,6 +28,9 @@ class DLL:
             nn.prev=t
             t.tail=nn
     
+    def DAE(self):
+        ...
+        
     def display(self):
         t=self.head
         while t:
