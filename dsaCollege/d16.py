@@ -16,6 +16,7 @@ class DLL:
             nn.next=self.head
             self.head=nn
             self.head=nn
+    
     def IAE(self,d):
         nn=Node(d)
         if not self.head:
@@ -26,6 +27,7 @@ class DLL:
             t.tail.next=nn
             nn.prev=t
             t.tail=nn
+    
     def display(self):
         t=self.head
         while t:
