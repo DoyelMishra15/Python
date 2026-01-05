@@ -62,3 +62,24 @@ for i in d1.items():
         else:
             return False
 '''
+
+'''class Solution:
+    def canConstruct(self, ransomNote: str, magazine: str) -> bool:
+        d1={}
+        d2={}
+        for c in ransomNote:
+            if c in d1:
+                d1[c]+=1
+            else:
+                d1[c]=1
+
+        for c in magazine:
+            if c in d2:
+                d2[c]+=1
+            else:
+                d2[c]=1
+
+        for c in d1.keys():
+            if c not in d2 or d2[c] < d1[c]:
+                return False
+        return True'''
