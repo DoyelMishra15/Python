@@ -19,3 +19,16 @@ while True:
 
 d1['k4']=4433
 print(d1)
+
+d1 = {"a": 10, "b": 20, "c": 30}
+
+for i in d1.keys():
+    print(i,end=" ")
+
+print()
+for i in d1.values():
+    print(i,end=" ")
+
+print()
+for i in d1.items():
+    print(i,end=", ")
