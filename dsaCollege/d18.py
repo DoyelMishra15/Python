@@ -32,3 +32,13 @@ for i in d1.values():
 print()
 for i in d1.items():
     print(i,end=", ")
+
+#242
+'''class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
+        s=sorted(s)
+        t=sorted(t)
+        return s==t'''
+
+'''
+'''
