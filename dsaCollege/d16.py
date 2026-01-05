@@ -41,3 +41,5 @@ class DLL:
             print(t.data,end="->")
             t=t.next
         print()
+
+#1472
