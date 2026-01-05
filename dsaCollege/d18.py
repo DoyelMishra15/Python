@@ -17,5 +17,5 @@ while True:
     if str(n) == str(n)[::-1]:
         break'''
 
-d1['k3']=3
+d1['k4']=4433
 print(d1)
