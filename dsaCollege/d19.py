@@ -45,3 +45,7 @@ m=[]
 for i in range(0,r*c,c):
   m.append(l[i:i+c])
 print(m)
+
+for i in range(r):
+  s+=m[i][i]
+print(s)
