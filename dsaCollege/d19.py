@@ -22,3 +22,11 @@ for i in range(3):
         else:
             print(" ", end=" ")
     print()
+
+r,c=map(int, input().split())
+m=[]
+for i in range(r):
+  l=list(map(int,input().split()))
+  m.append(l)
+print(m)
+
