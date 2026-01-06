@@ -23,6 +23,11 @@ for i in range(3):
             print(" ", end=" ")
     print()
 
+'''i/p is 3 3
+1 2 3
+4 5 6
+7 8 9'''
+
 r,c=map(int, input().split())
 m=[]
 for i in range(r):
@@ -30,3 +35,6 @@ for i in range(r):
   m.append(l)
 print(m)
 
+
+'''if i/p=> 3 3
+1 2 3 4 5 6 7 8 9'''
