@@ -39,3 +39,9 @@ print(m)
 '''if i/p=> 3 3
 1 2 3 4 5 6 7 8 9'''
 
+r,c=map(int, input().split())
+l=list(map(int,input().split()))
+m=[]
+for i in range(0,r*c,c):
+  m.append(l[i:i+c])
+print(m)
