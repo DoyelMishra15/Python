@@ -59,3 +59,22 @@ print(s)
 6.lower triangle sum
 7. upper + lower triangle sum'''
 
+r,c=map(int, input().split())
+l=list(map(int,input().split()))
+m=[]
+for i in range(0,r*c,c):
+  m.append(l[i:i+c])
+print(m)
+
+s=0
+for i in range(r):
+  for j in range(c):
+    s+=m[i][j]
+print("1.Sum of all elem: ",s)
+
+s=0
+for i in range(r):
+  s=0
+  for j in range(c):
+    s+=m[i][j]
+  print(f"1.sum of individual rows ",s)
