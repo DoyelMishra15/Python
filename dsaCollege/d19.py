@@ -49,3 +49,13 @@ print(m)
 for i in range(r):
   s+=m[i][i]
 print(s)
+
+'''Q
+1.sum of all elem
+2.sum of individual rows
+3.sum of individual col
+4.2 diagonal sums separately
+5.upper triangle sum
+6.lower triangle sum
+7. upper + lower triangle sum'''
+
