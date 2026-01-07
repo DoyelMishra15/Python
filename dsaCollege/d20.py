@@ -51,7 +51,8 @@
                 matrix[i][j],matrix[j][i]= matrix[j][i],matrix[i][j]
             matrix[i]=matrix[i][::-1]'''
 
-#867
+#867 did it by myself
+
 '''class Solution:
     def transpose(self, matrix: List[List[int]]) -> List[List[int]]:
         rows = len(matrix)
@@ -61,4 +62,8 @@
             for j in range(cols):
                 result[j][i] = matrix[i][j]
         return result'''
+
+#1886
+
+
 #spiral matrix
