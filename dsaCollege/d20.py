@@ -27,4 +27,7 @@
             for row in range(len(matrix)):
                 matrix[row][j]=0'''
 
+#48
+
+
 #spiral matrix
