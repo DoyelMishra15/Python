@@ -65,5 +65,15 @@
 
 #1886
 
+'''class Solution:
+    def findRotation(self, mat: List[List[int]], target: List[List[int]]) -> bool:
+        p=0
+        while p<4 and mat!=target:
+            for i in range(len(mat)):
+                for j in range(i+1,len(mat[0])):
+                    mat[i][j],mat[j][i]= mat[j][i],mat[i][j]
+                mat[i]=mat[i][::-1]
+            p+=1
+        return mat==target'''
 
 #spiral matrix
