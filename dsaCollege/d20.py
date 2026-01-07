@@ -79,4 +79,44 @@
 #3242
 
 
+'''
+class NeighborSum(object):
+    def __init__(self, grid):
+        self.m=grid
+    def adjacentSum(self, value):
+        r, c, s=len(self.m), len(self.m[0]), 0
+        for i in range(r):
+            for j in range(c):
+                if self.m[i][j]==value:
+                    if i-1>=0:
+                        s+=self.m[i-1][j] 
+                    if j+1<c:
+                        s+=self.m[i][j+1]
+                    if i+1<r:
+                        s+=self.m[i+1][j]
+                    if j-1>=0:
+                        s+=self.m[i][j-1]
+                    return s
+    def diagonalSum(self, value):
+        r, c, s=len(self.m), len(self.m[0]), 0
+        for i in range(r):
+            for j in range(c):
+                if self.m[i][j]==value:
+                    if i-1>=0 and j-1>=0:
+                        s+=self.m[i-1][j-1] 
+                    if j+1<c and i-1>=0:
+                        s+=self.m[i-1][j+1]
+                    if i+1<r and j-1>=0:
+                        s+=self.m[i+1][j-1]
+                    if j+1<c and i+1<r:
+                        s+=self.m[i+1][j+1]
+                    return s
+        
+
+
+# Your NeighborSum object will be instantiated and called as such:
+# obj = NeighborSum(grid)
+# param_1 = obj.adjacentSum(value)
+# param_2 = obj.diagonalSum(value)
+'''
 #spiral matrix
