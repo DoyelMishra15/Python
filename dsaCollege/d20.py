@@ -76,4 +76,7 @@
             p+=1
         return mat==target'''
 
+#3242
+
+
 #spiral matrix
