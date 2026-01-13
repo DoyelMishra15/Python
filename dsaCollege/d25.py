@@ -28,3 +28,9 @@
 # param_3 = obj.top()
 # param_4 = obj.getMin()'''
 
+'''class Solution:
+    def reverseOnlyLetters(self, s: str) -> str:
+        s=list(s)
+        stack=[c for c in s if c.isalpha()]
+        s=[stack.pop() if c.isalpha() else c for c in s]
+        return ''.join(s)'''
