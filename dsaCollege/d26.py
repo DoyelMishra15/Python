@@ -43,3 +43,9 @@
 # param_4 = obj.Rear()
 # param_5 = obj.isEmpty()
 # param_6 = obj.isFull()'''
+
+#225
+
+'''
+
+'''
