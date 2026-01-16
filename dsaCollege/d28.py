@@ -30,3 +30,17 @@ print(arr)
                 if arr[j]%2>arr[j+1]%2:
                     arr[j],arr[j+1]=arr[j+1],arr[j]
         return arr'''
+
+
+#875, H.W
+
+#selection sort
+
+arr= [5,3,4,2,1]
+for i in range(len(arr)-1):
+    min_i=i
+    for j in range(i+1,len(arr)):
+        if arr[j]<arr[min_i]:
+            min_i=j
+    arr[i],arr[min_i]=arr[min_i],arr[i]
+print(arr)
