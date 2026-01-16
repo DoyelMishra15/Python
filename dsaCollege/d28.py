@@ -44,3 +44,9 @@ for i in range(len(arr)-1):
             min_i=j
     arr[i],arr[min_i]=arr[min_i],arr[i]
 print(arr)
+
+
+#insertion sort
+
+arr= [5,3,4,2,1]
+
