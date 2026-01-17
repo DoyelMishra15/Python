@@ -199,3 +199,115 @@ Expected Output
 7
 5 1 2 + 4 * + 5 -
 14'''
+
+#set3
+
+'''Question Title
+Stock Span Problem (Real-Time Stock Analysis)
+
+Problem Description
+You are given an integer array prices where prices[i] represents the stock price of a company on day i.
+Return an array span such that:
+ span[i] is the number of consecutive days (including today) the stock price has been less than or equal to today’s price.
+This problem simulates a real-time stock trading system where traders want to know how strong today’s price is compared to previous days.
+You must solve this problem using a stack that keeps track of indices in a monotonically decreasing order of stock prices.
+
+Constraints
+1 <= prices.length <= 10^5
+
+
+1 <= prices[i] <= 10^5
+
+
+Output array length must be the same as input
+
+
+
+Example
+Input
+100 80 60 70 60 75 85
+
+Output
+[1, 1, 1, 2, 1, 4, 6]
+
+
+Explanation
+Day 0 (100) → span = 1
+
+
+Day 1 (80) → lower than yesterday → span = 1
+
+
+Day 2 (60) → lower → span = 1
+
+
+Day 3 (70) → higher than 60 → span = 2
+
+
+Day 4 (60) → lower → span = 1
+
+
+Day 5 (75) → higher than 60, 70 → span = 4
+
+
+Day 6 (85) → higher than 75, 80 → span = 6
+
+
+
+Algorithm (Stack Intuition)
+Keep a stack of indices
+
+
+Stack stores previous prices in decreasing order
+
+
+Go through prices from left to right
+
+
+While current price ≥ top of stack → pop indices
+
+
+If stack becomes empty → span = current index + 1
+
+
+Else → span = distance from stack top
+
+
+Push current index onto stack
+
+
+Why Stack Works Here
+Each price is pushed once and popped once
+
+
+The stack always remembers the nearest greater element on the left
+
+
+This avoids nested loops and makes it efficient for real-time systems
+
+
+
+Complexity Analysis
+Time Complexity: O(n)
+
+
+Space Complexity: O(n)
+
+
+
+Test Cases
+Input
+Expected Output
+100 80 60 70 60 75 85
+[1, 1, 1, 2, 1, 4, 6]
+10 20 30 40
+[1, 2, 3, 4]
+40 30 20 10
+[1, 1, 1, 1]
+50
+[1]
+70 70 70
+[1, 2, 3]
+
+
+'''
