@@ -98,3 +98,104 @@ Expected Output
 80 79 78 77
 [0, 0, 0, 0]'''
 
+#set 1
+
+'''Question Title
+Evaluate Reverse Polish Notation
+
+Problem Description
+You are given an array of strings tokens that represents an arithmetic expression in Reverse Polish Notation (RPN).
+Evaluate the expression and return the result as an integer.
+Rules:
+Valid operators: +, -, *, /
+
+
+Operands are 32-bit integers
+
+
+Division truncates toward zero
+
+
+Example: -9 / 2 = -4
+
+
+The input expression is always valid
+
+
+No division by zero
+
+
+
+Constraints
+4 <= tokens.length <= 10^4
+
+
+tokens[i] is either:
+
+
+a decimal integer (may start with -)
+
+
+"+", "-", "*", "/"
+
+
+All intermediate and final results fit in a 32-bit signed integer
+
+
+
+Approach (Stack Intuition)
+Keep a stack
+
+
+If element is number → push onto stack
+
+
+If element is operator → pop two numbers → compute → push result back
+
+
+After all tokens → top of stack is the answer
+
+Time Complexity: O(n)
+ Space Complexity: O(n)
+
+Example
+Input
+2 1 + 3 *
+
+Output
+9
+
+Explanation
+(2 + 1) * 3 = 9
+
+
+
+
+
+
+
+
+Test Case
+Input
+Expected Output
+1
+2 1 + 3 *
+9
+2
+4 13 5 / +
+6
+3
+10 6 9 3 + -11 * / * 17 + 5 +
+22
+4
+3 -4 *
+-12
+5
+18
+18
+6
+-9 2 /
+-4
+7
+5 1 2 + 4 * + 5 -
+14'''
