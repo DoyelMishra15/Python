@@ -40,3 +40,14 @@ class Solution:
         return dfs(root, [])
 '''
 
+''' class Solution:
+    def postorderTraversal(self, root):
+        def dfs(r, res):
+            if r:
+                dfs(r.left, res)    # Left
+                dfs(r.right, res)   # Right
+                res.append(r.val)   # Root
+            return res
+        
+        return dfs(root, [])
+'''
