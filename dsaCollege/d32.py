@@ -4,3 +4,6 @@
 # perfect bt,
 # balance bt,
 # degenerate bt
+
+#AVL tree , bst, binary etc study
+
