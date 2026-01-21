@@ -28,3 +28,15 @@ class Solution:
         return p(root,[])
 '''
 
+'''class Solution:
+    def inorderTraversal(self, root):
+        def dfs(r, res):
+            if r:
+                dfs(r.left, res)    # Left
+                res.append(r.val)   # Root
+                dfs(r.right, res)   # Right
+            return res
+        
+        return dfs(root, [])
+'''
+
