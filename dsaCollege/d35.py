@@ -267,3 +267,93 @@ zzzz
 Output:
 4
 '''
+
+'''🟨 Question Title
+Count Segments With Exactly K Odd Numbers
+
+📝 Description
+You are given an array arr of integers and an integer K.
+Return the number of contiguous segments that contain exactly K odd numbers.
+
+📌 Example
+Input
+arr = [1, 1, 2, 1, 1]
+K = 3
+
+Output
+2
+
+
+💡 Explanation
+The valid contiguous segments are:
+[1, 1, 2, 1]
+[1, 2, 1, 1]
+
+Each contains exactly three odd numbers.
+
+✅ Public Test Cases
+Test Case 1
+ Input:
+2 4 6
+1
+
+Output:
+0
+
+
+Test Case 2
+ Input:
+2 2 1 2 2
+1
+
+Output:
+9
+
+
+🔒 Private Test Cases
+Test Case 1
+ Input:
+1 3 5
+2
+
+Output:
+2
+
+
+Test Case 2
+ Input:
+1
+1
+
+Output:
+1
+
+
+Test Case 3
+ Input:
+2 2 2
+0
+
+Output:
+0
+
+
+Test Case 4
+ Input:
+1 2 3 4 5
+2
+
+Output:
+4
+
+
+Test Case 5
+ Input:
+1 1 1 1
+3
+
+Output:
+2
+
+
+'''
