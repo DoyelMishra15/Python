@@ -179,3 +179,91 @@ Test Case 5
 Output:
 1
 '''
+
+'''🟨 Question Title
+Longest Substring With At Most K Distinct Alphabets
+
+📝 Description
+You are given a string s consisting of lowercase English alphabets and an integer K.
+Return the maximum length of a contiguous substring that contains at most K distinct characters.
+
+📌 Example
+Input
+s = "eceba"
+K = 2
+
+Output
+3
+
+
+💡 Explanation
+The longest valid substring is:
+"ece"
+
+It contains only two distinct characters and has length 3.
+
+🧪 Test Cases
+✅ Public Test Cases
+Test Case 1
+ Input:
+aa
+1
+
+Output:
+2
+
+
+Test Case 2
+ Input:
+abc
+2
+
+Output:
+2
+
+
+🔒 Private Test Cases
+Test Case 1
+ Input:
+aabbcc
+1
+
+Output:
+2
+
+
+Test Case 2
+ Input:
+abcdef
+3
+
+Output:
+3
+
+
+Test Case 3
+ Input:
+a
+1
+
+Output:
+1
+
+
+Test Case 4
+ Input:
+abaccc
+2
+
+Output:
+4
+
+
+Test Case 5
+ Input:
+zzzz
+1
+
+Output:
+4
+'''
