@@ -27,3 +27,14 @@ bfs(["a"], ["a"])
 print()
 
 #dfs
+
+def dfs(x, v):
+    print(x, end=" ")
+    v.append(x)
+
+    for i in g[x]:
+        if i not in v:
+            dfs(i, v)
+
+dfs("a", [])
+print()
