@@ -24,3 +24,4 @@ def bfs(q, v):
     bfs(q, v)
 
 bfs(["a"], ["a"])
+print()
