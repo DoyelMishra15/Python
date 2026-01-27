@@ -25,3 +25,5 @@ def bfs(q, v):
 
 bfs(["a"], ["a"])
 print()
+
+#dfs
